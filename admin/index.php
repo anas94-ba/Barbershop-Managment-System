@@ -50,7 +50,7 @@ if (isset($_COOKIE['username']) && isset($_COOKIE['password'])) {
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>تسجيل دخول الادمن </title>
+<title> Admin login  </title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -85,20 +85,20 @@ if (isset($_COOKIE['username']) && isset($_COOKIE['password'])) {
 		
 		<!-- main content start-->
 			<div class="main-page login-page ">
-				<h3 class="title1">صفحة التسجيل </h3>
+				<h3 class="title1"> login page</h3>
 				<div class="widget-shadow">
 					<div class="login-top">
 
-						<h4>! مرحبا بك في صفحة الادارة لصالون زين</h4>
+						<h4>Welcome to admin page in zain salon </h4>
 					</div>
 					<div class="login-body">
 						<form role="form" method="post" action="">
 							<p style="font-size:16px; color:red" align="center"> <?php if($msg){
     echo $msg;
   }  ?> </p>
-							<input type="text" class="user" name="username" placeholder="ادخل اسم المستخدم" required="true">
-							<input type="password" name="password" class="lock" placeholder="ادخل كلمة السر" required="true">
-							<input type="submit" name="login" value="تسجيل الدخول">
+							<input type="text" class="user" name="username" placeholder=" username " required="true">
+							<input type="password" name="password" class="lock" placeholder="password  " required="true">
+							<input type="submit" name="login" value=" submit">
 							<div class="forgot-grid">
 								
 							<div class="clearfix"> </div>
@@ -106,7 +106,7 @@ if (isset($_COOKIE['username']) && isset($_COOKIE['password'])) {
 							<div class="forgot-grid">
 								
 								<div class="forgot">
-									<a href="forgot-password.php">نسيت كلمة المرور؟</a>
+									<a href="forgot-password.php">  Do you forget password?</a>
 								</div>
 								<div class="clearfix"> </div>
 							</div>

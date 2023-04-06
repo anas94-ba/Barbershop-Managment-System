@@ -1,24 +1,39 @@
-  <div class=" sidebar" role="navigation">
+  <div class=" sidebar" role="navigation" >
             <div class="navbar-collapse">
         <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
           <ul class="nav slider" id="side-menu">
             <li>
-              <a href="dashboard.php"><i class="fa fa-home nav_icon"></i>صفحة المعلومات</a>
+              <a href="dashboard.php"><i class="fa fa-home nav_icon"></i>main page </a>
             </li>
             <li>
-              <a href="customer-list.php" class="chart-nav"><i class="fa fa-users nav_icon"></i>قائمة الزبائن</a>
+              <a href="customer-list.php" class="chart-nav"><i class="fa fa-users nav_icon"></i> customers list</a>
             </li>
             <li>
-              <a href="add-services.php"><i class="fa fa-cogs nav_icon"></i>الخدمات والمنتجات<span class="fa arrow"></span> </a>
+              <a href=""><i class="fa fa-cogs nav_icon"></i>services <span class="fa arrow"></span> </a>
               <ul class="nav nav-second-level collapse">
                 <li>
-                  <a href="add-services.php">إضافة خدمة او منتج</a>
+                  <a href="service-add-display.php"> add service  </a>
                 </li>
                 <li>
-                  <a href="manage-services.php">ادارة الخدمات والمنتجات</a>
+                  <a href="service-list.php">manage services </a>
                 </li>
               </ul>
               <!-- /nav-second-level -->
+            </li>
+            <li>
+              <a href=""><i class="fa fa-cogs nav_icon"></i>messages<span class="fa arrow"></span> </a>
+              <ul class="nav nav-second-level collapse">
+                <li>
+                  <a href="customer-message.php">customer messages </a>
+                </li>
+                <li>
+                  <a href="barber-message.php">barber messages </a>
+                </li>
+              </ul>
+              <!-- /nav-second-level -->
+            </li>
+            <li>
+              <a href="barber-list.php" class="chart-nav"><i class="fa fa-users nav_icon"></i> barbers list</a>
             </li>
             <li class="">
               <a href="about-us.php"><i class="fa fa-book nav_icon"></i>الصفحات <span class="fa arrow"></span></a>
