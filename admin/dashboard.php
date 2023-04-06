@@ -33,16 +33,6 @@ if (!isset($_SESSION['adminId'])) {
 		 new WOW().init();
 	</script>
 <!--//end-animate-->
-<!-- chart -->
-<script src="js/Chart.js"></script>
-<!-- //chart -->
-<!--Calender-->
-<link rel="stylesheet" href="css/clndr.css" type="text/css" />
-<script src="js/underscore-min.js" type="text/javascript"></script>
-<script src= "js/moment-2.2.1.js" type="text/javascript"></script>
-<script src="js/clndr.js" type="text/javascript"></script>
-<script src="js/site.js" type="text/javascript"></script>
-<!--End Calender-->
 <!-- Metis Menu -->
 <script src="js/metisMenu.min.js"></script>
 <script src="js/custom.js"></script>
@@ -242,7 +232,7 @@ $totalsale+=$total_sale;
         <!--//footer-->
 	</div>
 	<!-- Classie -->
-		<script src="js/classie.js"></script>
+	<script src="js/classie.js"></script>
 		<script>
 			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
 				showLeftPush = document.getElementById( 'showLeftPush' ),
@@ -255,18 +245,19 @@ $totalsale+=$total_sale;
 				disableOther( 'showLeftPush' );
 			};
 			
-
 			function disableOther( button ) {
 				if( button !== 'showLeftPush' ) {
 					classie.toggle( showLeftPush, 'disabled' );
 				}
 			}
+
+			
 		</script>
 	<!--scrolling js-->
 	<script src="js/jquery.nicescroll.js"></script>
 	<script src="js/scripts.js"></script>
 	<!--//scrolling js-->
 	<!-- Bootstrap Core JavaScript -->
-   <script src="js/bootstrap.js"> </script>
+	<script src="js/bootstrap.js"> </script>
 </body>
 </html>
